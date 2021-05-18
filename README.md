@@ -26,6 +26,14 @@ rm -R banPortScanner
 chmod 700 /root/banPortScanner.sh
 chmod 700  /etc/init.d/firewall
 ```
+4. Agendamento de script no crontab como root:
+
+`crontab -e`
+
+Inserir a Linha:
+
+`00 * * * * root sh /root/banPortScanner.sh`
+
 
 4. Comandos para gerência:
 
