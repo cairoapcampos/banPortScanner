@@ -49,6 +49,15 @@ systemctl restart firewall
 systemctl status firewall
 ```
 
+## Testes realizados
+
+Máquia 1 - Servidor Web (192.168.0.3)
+Máquina 2 - Cliente Kali Linux (192.168.0.10)
+
+Foi configuradas duas máqunas na mesma rede para um teste inicial.
+
+
+
 ## Fontes
 
 ```
