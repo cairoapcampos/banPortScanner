@@ -50,13 +50,18 @@ systemctl status firewall
 ```
 
 ## Testes realizados
-
-Máquia 1 - Servidor Web (192.168.0.3)
+```
+Máquia 1 - Servidor Web (Interface Wan monitorada: 192.168.0.3)
 Máquina 2 - Cliente Kali Linux (192.168.0.10)
+```
 
-Foi configuradas duas máqunas na mesma rede para um teste inicial.
+Foi configuradas duas máquinas na mesma rede para um teste inicial. Usando o comando abaixo na máquina Kali tentamos 
+obeter informações do servidor web.
 
+`nmap -A -sS 192.168.0.3`
 
+O comando rodará até ser concluído. Posteriormente de acordo com o agendamento no crontab o ip será bloqueado. Caso o mesmo comando
+sejá executado novamente com o mesmo IP de origem, o mesmo não será finalizado com poucas informações capturadas.
 
 ## Fontes
 
