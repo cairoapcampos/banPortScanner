@@ -49,6 +49,15 @@ systemctl restart firewall
 systemctl status firewall
 ```
 
+## Fontes
+
+```
+https://www.vivaolinux.com.br/dica/Bloqueando-PortScanners-com-IPTABLES
+https://www.vivaolinux.com.br/dica/Utilizando-o-nmap-para-descobrir-versao-dos-servicos
+https://blog.remontti.com.br/2435
+https://blog.remontti.com.br/2478
+```
+
 
 
 
