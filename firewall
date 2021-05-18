@@ -1,6 +1,6 @@
 #!/bin/bash
 ### BEGIN INIT INFO
-# Provides:          cairo-firewall
+# Provides:          firewall
 # Required-Start:    $all
 # Required-Stop:
 # Default-Start:     2 3 4 5
