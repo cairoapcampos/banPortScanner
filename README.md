@@ -26,6 +26,16 @@ rm -R banPortScanner
 chmod 700 /root/banPortScanner.sh
 chmod 700  /etc/init.d/firewall
 ```
+
+4. Alterar interface nas configurações
+
+Deve-se trocar o nome da interface wan monitorada na variavél interface `interface=enp0s8` nos arquivos abaixo:
+
+```
+nano /root/banPortScanner.sh
+nano /etc/init.d/firewall
+```
+
 4. Agendamento de script no crontab como root:
 
 `crontab -e`
