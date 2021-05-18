@@ -61,7 +61,7 @@ systemctl status firewall
 
 ## Testes realizados
 ```
-Máquia 1 - Servidor Web (Interface Wan monitorada: enp0s8 - IP: 192.168.0.3)
+Máquina 1 - Servidor Web (Interface Wan monitorada: enp0s8 - IP: 192.168.0.3)
 Máquina 2 - Cliente Kali Linux (IP: 192.168.0.10)
 ```
 
