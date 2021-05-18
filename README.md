@@ -36,7 +36,7 @@ nano /root/banPortScanner.sh
 nano /etc/init.d/firewall
 ```
 
-4. Agendamento de script no crontab como root:
+5. Agendamento de script no crontab como root:
 
 `crontab -e`
 
@@ -45,7 +45,7 @@ Inserir a Linha:
 `00 * * * * root sh /root/banPortScanner.sh`
 
 
-4. Comandos para gerência:
+6. Comandos para gerência:
 
 ```
 /etc/init.d/firewall start 
