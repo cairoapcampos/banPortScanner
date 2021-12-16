@@ -42,7 +42,6 @@ case "$1" in
     start )
         startFirewall
         echo; echo -e "[${VERDE} Firewall carregado ${NC}]";
-        echo "Para verificar as regras use: /etc/init.d/rr-firewall status"
         ;;
 
     stop )
