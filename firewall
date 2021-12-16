@@ -64,7 +64,7 @@ status )
         ;;
 
     * )
-        echo "Opção inválida, use cairo-firewall start | stop | restart | status"
+        echo "Opção inválida, use firewall start | stop | restart | status"
         ;;
 esac
 
